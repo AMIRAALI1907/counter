@@ -1,0 +1,36 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  /* background-color: rgba(128, 128, 128, 0.452); */
+}
+.containerr{
+    text-align: center;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+h3{
+    font-size: 60px;
+    /* color: white; */
+    
+}
+.containerr button{
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    /* background-color: #007580; */
+    background-color: white;
+    color:black;
+    outline: none;
+  border-color:transparent;
+}
+button:hover{
+    background-color:black;
+    color:white;
+}
